@@ -30,6 +30,7 @@
     <file path="/show.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399754556037" ignored="false" />
     <file path="/20140510203059_add_quantity_to_line_items.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399753956553" ignored="false" />
     <file path="/20140510204357_combine_items_in_cart.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399755501033" ignored="false" />
+    <file path="/carts_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399755981759" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140510204357_combine_items_in_cart.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140510204357_combine_items_in_cart.rb">
+      <file leaf-file-name="carts_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="15" selection-start="841" selection-end="841" vertical-scroll-proportion="0.78640777">
+            <state line="34" column="32" selection-start="767" selection-end="767" vertical-scroll-proportion="0.7184466">
               <folding />
             </state>
           </provider>
@@ -77,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/store_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
@@ -93,6 +93,7 @@
         <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/carts/show.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20140510204357_combine_items_in_cart.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
       </list>
     </option>
   </component>
@@ -176,6 +177,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -794,20 +809,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/functional/store_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.17045455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140510162349_create_line_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="8" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
@@ -892,6 +893,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140510204357_combine_items_in_cart.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="15" selection-start="841" selection-end="841" vertical-scroll-proportion="0.78640777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="45" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
@@ -899,9 +907,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140510204357_combine_items_in_cart.rb">
+    <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="15" selection-start="841" selection-end="841" vertical-scroll-proportion="0.78640777">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-184.53398">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="32" selection-start="767" selection-end="767" vertical-scroll-proportion="0.7184466">
           <folding />
         </state>
       </provider>
