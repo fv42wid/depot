@@ -9,7 +9,7 @@
     <file path="/_form.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399486535945" ignored="false" />
     <file path="/products.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399487764067" ignored="false" />
     <file path="/application.html.erb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399487869843" ignored="false" />
-    <file path="/index.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399599017739" ignored="false" />
+    <file path="/index.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399682830660" ignored="false" />
     <file path="/product.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399492207323" ignored="false" />
     <file path="/products_controller_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399507902506" ignored="false" />
     <file path="/product_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399511042644" ignored="false" />
@@ -48,19 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/store/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="271" selection-end="271" vertical-scroll-proportion="0.305499">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="21" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.32738096">
               <folding />
             </state>
           </provider>
@@ -88,10 +79,10 @@
         <option value="$PROJECT_DIR$/test/unit/product_test.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/store_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/store/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/store/index.html.haml" />
       </list>
     </option>
   </component>
@@ -419,6 +410,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -723,17 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/store_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/store/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="252" selection-end="252" vertical-scroll-proportion="-6.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="21" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+        <state line="3" column="36" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -748,6 +736,20 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="28" selection-start="271" selection-end="271" vertical-scroll-proportion="0.305499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="21" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/store/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.32738096">
           <folding />
         </state>
       </provider>

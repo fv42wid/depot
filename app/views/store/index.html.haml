@@ -9,4 +9,4 @@
     %h3= product.title
     %p= sanitize(product.description)
     %div.class_line
-      %span.price= product.price
+      %span.price= number_to_currency(product.price)
