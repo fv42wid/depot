@@ -13,6 +13,9 @@
 
     %div#columns
       %div#side
+        %div#cart
+          = render @cart
+
         %ul
           %li= link_to "Home", "http://localhost:3000"
           %li= link_to "Questions", "http://localhost:3000/faq"
