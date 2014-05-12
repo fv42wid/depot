@@ -14,7 +14,8 @@
     %div#columns
       %div#side
         %div#cart
-          = render @cart
+          - hidden_div_if(@cart.line_items.empty?, id: 'cart') do
+            = render @cart
 
         %ul
           %li= link_to "Home", "http://localhost:3000"
