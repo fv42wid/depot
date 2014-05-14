@@ -17,7 +17,7 @@
     <file path="/routes.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400080005490" ignored="false" />
     <file path="/store_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400091438494" ignored="false" />
     <file path="/store.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399739990513" ignored="false" />
-    <file path="/application.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399924022694" ignored="false" />
+    <file path="/application.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400092022722" ignored="false" />
     <file path="$PROJECT_DIR$/config/environments/production.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399675531224" ignored="false" />
     <file path="/application.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399925268927" ignored="false" />
     <file path="/store_controller_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399683285880" ignored="false" />
@@ -50,8 +50,8 @@
     <file path="/_line_item.text.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400031611395" ignored="false" />
     <file path="/shipped.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400075347868" ignored="false" />
     <file path="/user_stories_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400077213062" ignored="false" />
-    <file path="/user.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400077739251" ignored="false" />
-    <file path="/users_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400078116241" ignored="false" />
+    <file path="/user.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400092364488" ignored="false" />
+    <file path="/users_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400092560453" ignored="false" />
     <file path="/users_controller_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400078930491" ignored="false" />
     <file path="/sessions_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400091460991" ignored="false" />
     <file path="/admin_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400079849039" ignored="false" />
@@ -75,19 +75,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/index.html.haml">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="-2.5">
+            <state line="28" column="41" selection-start="833" selection-end="833" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="37" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5790441">
+            <state line="9" column="37" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="32" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.7518382">
               <folding />
             </state>
           </provider>
@@ -103,22 +112,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.haml" />
         <option value="$PROJECT_DIR$/test/functional/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/admin_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/store_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       </list>
     </option>
   </component>
@@ -1096,13 +1105,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="150" selection-end="150" vertical-scroll-proportion="0.40384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="6" selection-start="296" selection-end="731" vertical-scroll-proportion="0.28846154">
@@ -1113,20 +1115,6 @@
     <entry file="file://$PROJECT_DIR$/test/functional/users_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="35" selection-start="898" selection-end="898" vertical-scroll-proportion="0.5870736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="122" selection-end="122" vertical-scroll-proportion="0.11029412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.16157989">
           <folding />
         </state>
       </provider>
@@ -1148,13 +1136,6 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="54" selection-start="232" selection-end="232" vertical-scroll-proportion="0.18850988">
           <folding />
         </state>
       </provider>
@@ -1194,16 +1175,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="-2.5">
+        <state line="21" column="37" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5790441">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5790441">
+        <state line="4" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="0.11257035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="833" selection-end="833" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21543986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="32" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.7518382">
           <folding />
         </state>
       </provider>
