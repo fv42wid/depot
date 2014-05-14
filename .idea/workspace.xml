@@ -15,10 +15,10 @@
     <file path="/product_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399511042644" ignored="false" />
     <file path="/products.yml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399510501875" ignored="false" />
     <file path="/routes.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400093578619" ignored="false" />
-    <file path="/store_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400091438494" ignored="false" />
+    <file path="/store_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400098842097" ignored="false" />
     <file path="/store.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399739990513" ignored="false" />
-    <file path="/application.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400094551260" ignored="false" />
-    <file path="/application.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399925268927" ignored="false" />
+    <file path="/application.html.haml" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400098404339" ignored="false" />
+    <file path="/application.css.scss" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400098902265" ignored="false" />
     <file path="/store_controller_test.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399683285880" ignored="false" />
     <file path="/application_controller.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1400094070288" ignored="false" />
     <file path="/cart.rb" changelist="5c6a3f83-7b80-4aae-9694-628aa71579db" time="1399757305094" ignored="false" />
@@ -78,37 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="25" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="710" selection-end="710" vertical-scroll-proportion="-11.916667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="538" selection-end="684" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="27" selection-start="556" selection-end="556" vertical-scroll-proportion="0.7540395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_cart.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/carts/_cart.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="404" selection-end="404" vertical-scroll-proportion="-8.125">
+            <state line="10" column="38" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17692308">
               <folding />
             </state>
           </provider>
@@ -124,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
@@ -134,12 +114,14 @@
         <option value="$PROJECT_DIR$/config/initializers/i18n.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/locales/en.yaml" />
         <option value="$PROJECT_DIR$/app/views/store/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/carts/_cart.html.haml" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/es.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/store_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -1153,20 +1135,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="80" selection-end="80" vertical-scroll-proportion="0.02757353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="99" selection-end="99" vertical-scroll-proportion="0.02757353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="69" selection-start="115" selection-end="115" vertical-scroll-proportion="0.02757353">
@@ -1209,30 +1177,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="434" selection-end="434" vertical-scroll-proportion="0.4209559">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/i18n.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10771993">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="37" selection-start="318" selection-end="318" vertical-scroll-proportion="0.24236985">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="710" selection-end="710" vertical-scroll-proportion="-11.916667">
           <folding />
         </state>
       </provider>
@@ -1260,7 +1207,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="556" selection-end="556" vertical-scroll-proportion="0.7540395">
+        <state line="4" column="41" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/i18n.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10771993">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/store_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="58" selection-start="181" selection-end="181" vertical-scroll-proportion="0.16157989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="25" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="38" selection-start="281" selection-end="281" vertical-scroll-proportion="0.17692308">
           <folding />
         </state>
       </provider>
